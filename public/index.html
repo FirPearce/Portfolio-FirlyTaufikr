@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link href="css/style.css" rel="stylesheet" />
+  </head>
+  <body class="bg-[#F7EEDD]">
+    <!-- navbar -->
+    <div></div>
+    <!-- hero section start -->
+    <section class="pt-36" id="home">
+      <div class="container">
+        <div class="flex flex-wrap">
+          <div class="w-full self-center px-4">
+            <span class="text-dark text-base font-semibold" id="greetings">
+            </span>
+            <br />
+            <span
+              class="block font-bold inline-block text-4xl mt-1 bg-gradient-to-r from-[#FF204E] to-[#008DDA] text-transparent bg-clip-text"
+              id="name">
+              Firly Taufikurohman
+            </span>
+            <h1 class="text-darklite font-medium text-lg mb-5">
+              <span class="text-dark">Backend Developer</span> | Deep Learning
+            </h1>
+            <p class="text-dark">
+              I am a fresh graduate of the National Institute of Technology. I
+              have two years of experience in web development, which I gained
+              during my time at university. Furthermore, I studied deep learning
+              for my final project in university. Currently, I am highly
+              interested in deep learning and web development, particularly in
+              backend development.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- hero section end -->
+    <!-- footer -->
+    <script src="../node_modules/typed.js/dist/typed.umd.js"></script>
+    <script>
+      var typed = new Typed("#greetings", {
+        strings: ["Hello! I'm", "Hi I'm", "Hello! my name is"],
+        typeSpeed: 50,
+        loop: true,
+        startDelay: 500,
+      });
+    </script>
+  </body>
+</html>
