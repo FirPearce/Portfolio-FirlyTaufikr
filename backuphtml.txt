@@ -14,39 +14,38 @@
       <div class="container">
         <div class="flex flex-wrap">
           <div class="w-full self-center px-4 lg:w-1/2">
-            <span class="text-secondary text-base font-semibold md:text-xl">
-              Hi, It's
+            <span
+              class="text-dark text-base font-semibold md:text-xl"
+              id="greetings">
             </span>
             <br />
             <span
-              class="block font-bold inline-block text-4xl mt-1 lg:text-5xl text-secondary"
+              class="block font-bold inline-block text-4xl mt-1 bg-gradient-to-r from-[#FF204E] to-[#008DDA] text-transparent bg-clip-text lg:text-5xl"
               id="name">
               Firly Taufikurohman
             </span>
-            <h1 class="text-secondary font-medium text-lg mb-5 lg:text-2xl">
-              I'm a
-              <span class="text-primary" id="greetings"></span>
+            <h1 class="text-darklite font-medium text-lg mb-5 lg:text-2xl">
+              <span class="text-dark">Backend Developer</span> | Deep Learning
             </h1>
-            <p
-              class="text-primary font font-medium mb-10 leading-relaxed text-pretty">
+            <p class="text-primary font font-medium mb-10 leading-relaxed">
               I am a fresh graduate of the National Institute of Technology. I
               have two years of experience in web development, which I gained
               during my time at university. Furthermore, I studied deep learning
               for my final project in university. Currently, I am highly
               interested in deep learning and web development, particularly in
-              <span class="text-secondary font-bold">backend development</span>.
+              <span class="text-dark font-bold">backend development</span>.
             </p>
             <a
               href="#"
-              class="text-base font-semibold text-[#FFFFFF] bg-[#757575] py-3 px-8 rounded-full hover:shadow-lg hover:bg-[#616161] transition duration-300 ease-in-out">
+              class="text-base font-semibold text-white bg-gradient-to-r from-[#FF204E] to-[#008DDA] py-3 px-8 rounded-full hover:shadow-lg hover:opacity-80 transition duration-300 ease-in-out">
               Contact Me</a
             >
           </div>
           <div class="w-full self-end px-4 lg:w-1/2">
             <div class="mt-10 lg:mt-0 lg:right-0">
               <img
-                width="800"
-                height="800"
+                width="500"
+                height="500"
                 src="img/Profile.png"
                 alt="Firly Taufikurohman"
                 class="max-w-full mx-auto" />
@@ -56,39 +55,14 @@
       </div>
     </section>
     <!-- hero section end -->
-
-    <!-- About Section Start -->
-    <section id="about" class="pt-36 pb-32">
-      <div class="container">
-        <div class="flex flex-wrap">
-          <div class="w-full px-4 mb-10">
-            <h4>Tentang Saya</h4>
-            <h2>Coba dulu</h2>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam fuga
-              ut qui eius maiores, voluptatibus porro!
-            </p>
-          </div>
-          <div class="w-full px-4">
-            <h3>Mari Berteman</h3>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Accusamus, officiis id perspiciatis commodi cumque aliquid quia?
-              Aliquid, ab?
-            </p>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- About Section End -->
     <!-- footer -->
     <script src="../node_modules/typed.js/dist/typed.umd.js"></script>
     <script>
       var typed = new Typed("#greetings", {
-        strings: ["Backend Developer", "Data Scientist"],
+        strings: ["Hello! I'm", "Hi I'm", "Hello! my name is"],
         typeSpeed: 50,
         loop: true,
-        startDelay: 200,
+        startDelay: 500,
       });
     </script>
   </body>
