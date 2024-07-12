@@ -13,6 +13,9 @@ module.exports = {
         secondary: "#a19f9f",
         primary: "#f0efee",
       },
+      boxShadow: {
+        "custom-inset": "inset 0 -1px 0 0 rgba(161, 159, 159, 0.2)",
+      },
       screens: {
         "2xl": "1320px",
       },
