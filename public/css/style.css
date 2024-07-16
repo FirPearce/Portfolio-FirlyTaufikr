@@ -1,6 +1,8 @@
-/*
-! tailwindcss v3.4.3 | MIT License | https://tailwindcss.com
-*/
+/* @import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities"; */
+
+/* ! tailwindcss v3.4.3 | MIT License | https://tailwindcss.com */
 
 /*
 1. Prevent padding and border from affecting element width. (https://github.com/mozdevs/cssremedy/issues/4)
@@ -778,8 +780,8 @@ video {
   scroll-behavior: smooth;
 }
 
-.text-pretty {
-  text-wrap: pretty;
+.text-wrap {
+  text-wrap: wrap;
 }
 
 .rounded-full {
@@ -820,6 +822,11 @@ video {
 .bg-\[\#757575\] {
   --tw-bg-opacity: 1;
   background-color: rgb(117 117 117 / var(--tw-bg-opacity));
+}
+
+.bg-\[\#E8E8E8\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(232 232 232 / var(--tw-bg-opacity));
 }
 
 .bg-neutral-950 {
@@ -905,6 +912,14 @@ video {
   text-align: center;
 }
 
+.text-right {
+  text-align: right;
+}
+
+.text-justify {
+  text-align: justify;
+}
+
 .text-2xl {
   font-size: 1.5rem;
   line-height: 2rem;
@@ -960,6 +975,11 @@ video {
   line-height: 1.625;
 }
 
+.text-\[\#000000\] {
+  --tw-text-opacity: 1;
+  color: rgb(0 0 0 / var(--tw-text-opacity));
+}
+
 .text-\[\#545353\] {
   --tw-text-opacity: 1;
   color: rgb(84 83 83 / var(--tw-text-opacity));
@@ -970,29 +990,14 @@ video {
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
-.text-dark {
-  --tw-text-opacity: 1;
-  color: rgb(0 34 77 / var(--tw-text-opacity));
-}
-
 .text-primary {
   --tw-text-opacity: 1;
   color: rgb(240 239 238 / var(--tw-text-opacity));
 }
 
-.text-rose-700 {
-  --tw-text-opacity: 1;
-  color: rgb(190 18 60 / var(--tw-text-opacity));
-}
-
 .text-secondary {
   --tw-text-opacity: 1;
   color: rgb(161 159 159 / var(--tw-text-opacity));
-}
-
-.text-sky-500 {
-  --tw-text-opacity: 1;
-  color: rgb(14 165 233 / var(--tw-text-opacity));
 }
 
 .text-slate-300 {
@@ -1160,6 +1165,10 @@ body {
   background-color: rgb(240 239 238 / var(--tw-bg-opacity));
 }
 
+.hover\:bg-opacity-80:hover {
+  --tw-bg-opacity: 0.8;
+}
+
 .hover\:text-dark:hover {
   --tw-text-opacity: 1;
   color: rgb(0 34 77 / var(--tw-text-opacity));
@@ -1168,10 +1177,6 @@ body {
 .hover\:text-primary:hover {
   --tw-text-opacity: 1;
   color: rgb(240 239 238 / var(--tw-text-opacity));
-}
-
-.hover\:opacity-80:hover {
-  opacity: 0.8;
 }
 
 .hover\:shadow-lg:hover {
