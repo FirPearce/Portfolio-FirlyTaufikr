@@ -1,7 +1,7 @@
 # Portfolio Website
 
 here's link to portfolio website :
-`https://firpearce.github.io/Portfolio-FirlyTaufikr`
+https://firpearce.github.io/Portfolio-FirlyTaufikr
 
 ## Technologies Used
 
@@ -14,7 +14,7 @@ here's link to portfolio website :
 ## Run Locally
 
 1. Clone this repository:
-
+   `https://github.com/FirPearce/Portfolio-FirlyTaufikr.git`
 2. Navigate to the project directory:
    `cd your-foldername`
 
